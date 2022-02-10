@@ -1,7 +1,23 @@
 header{
-	margin-bottom: 65px;
+	margin-bottom: 60px;
 }
 
-#America2{
-	height: auto;
+section.Content div h2.Title{
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+
+section.Content div.row{
+	margin-bottom: 10px;
+}
+
+section.Content div p.card-text{
+	display: flex;
+}
+
+section.Content div p.card-text{
+	height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
