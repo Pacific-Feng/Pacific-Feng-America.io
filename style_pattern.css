@@ -98,7 +98,7 @@ header ul.navbar-nav ul{
 	header ul.navbar-nav li{
 	  position : relative;
 	  top: 9px;
-	  padding-left: 20px;
+	  padding-left: 0px;
 	  margin-left: 20px;
 	  border-right: none;
 	}	
