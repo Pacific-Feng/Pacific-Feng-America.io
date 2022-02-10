@@ -39,17 +39,19 @@ header{
 	}
 }
 
-a.nav-link.active{
+a.nav-link.active{    /*大螢幕的選取工作列的各個小按鈕*/
 	padding-left: 20px;
     padding-right: 20px;	
+	padding-bottom: 10px;
 }
 
-a#navbarDropdown.nav-link.dropdown-toggle{
+a#navbarDropdown.nav-link.dropdown-toggle{ /*小螢幕的選取工作列*/
 	padding-left: 20px;
 	padding-right: 20px;
+	padding-bottom: 10px;
 }
 
-div#navbarOffcanvasLg.offcanvas.offcanvas-end{
+div#navbarOffcanvasLg.offcanvas.offcanvas-end{ /*整個大螢幕的選取工作列*/
 	margin-left: 29vw;
 }
 
@@ -82,7 +84,7 @@ header ul.navbar-nav ul{
 	display: none;
 }
 
-.offcanvas-end {
+.offcanvas-end { /*小螢幕的選取工作列的寬度*/
 	width: 300px;
 }
 
@@ -99,13 +101,10 @@ header ul.navbar-nav ul{
 	  padding-left: 20px;
 	  margin-left: 20px;
 	  border-right: none;
-	}
+	}	
 	
-	header ul.navbar-nav li{
-	  position : relative;
-	  top: 9px;
-	  padding-left: 0px;
-	  margin-left: 20px;
+	a#navbarDropdown.nav-link.dropdown-toggle{ /*小螢幕的選取工作列*/
+	margin-top: 10px;
 	}
 }
 
@@ -117,11 +116,12 @@ header ul.navbar-nav ul{
 
 
 
-/**/
+/*-----------------------------------------------------------------*/
 
 footer div.Outer{
 	position: relative;
 	background-color: black;
+	margin-top: 50px;
 	height: 80px;
 	width: 100%;
 	z-index: 0;
