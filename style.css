@@ -2,22 +2,53 @@ header{
 	margin-bottom: 60px;
 }
 
-section.Content div h2.Title{
-	margin-top: 50px;
+#Carousel{
+	margin-bottom: 30px;
+}
+
+section.Topic div h1.Title{
+	margin-top: 100px;
 	margin-bottom: 100px;
 }
 
-section.Content div.row{
-	margin-bottom: 10px;
+
+section.Content_Topic div.container-md{
+	margin-bottom: 35px;
 }
 
-section.Content div p.card-text{
-	display: flex;
+section.Content_Topic span.SanFrans{
+	letter-spacing: 4px;
+	font-size: 20px; 
+	background-color: #a8835b; 
+	color: #ffffff;
+	padding: 5px;
 }
 
-section.Content div p.card-text{
-	height: 60px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+section.Content_Topic span.LasVegas{
+	letter-spacing: 4px;
+	font-size: 20px; 
+	background-color: #965c1d; 
+	color: #ffffff;
+	padding: 5px;
+}
+
+section.Content_Topic span.LosAng{
+	letter-spacing: 4px;
+	font-size: 20px; 
+	background-color: #5e4d3b; 
+	color: #ffffff;
+	padding: 5px;
+}
+
+
+section.Content div.container-md{
+	margin-bottom: 50px;
+}
+
+section.Content span.blank{
+	color: white;
+}
+
+section.Content span{
+	letter-spacing: 1.5px;
 }
