@@ -165,6 +165,100 @@ footer div h6{
 	top: 200px;
 }
 	
+@media only screen and (max-width: 1625px){
+	
+	#fb{
+	  position: absolute;
+      left: 1200px;
+      bottom: 14px;
+	}
+	#ig{
+	  position: absolute;
+      left: 1265px;
+      bottom: 14px;
+	}
+	#mail{
+	position: absolute;
+	  left: 1330px;
+	  bottom: 14px;
+	}
+}
+
+@media only screen and (max-width: 1420px){
+	
+	#fb{
+	  position: absolute;
+      left: 1000px;
+      bottom: 14px;
+	}
+	#ig{
+	  position: absolute;
+      left: 1065px;
+      bottom: 14px;
+	}
+	#mail{
+	position: absolute;
+	  left: 1130px;
+	  bottom: 14px;
+	}
+}
+
+@media only screen and (max-width: 1210px){
+	
+	#fb{
+	  position: absolute;
+      left: 800px;
+      bottom: 14px;
+	}
+	#ig{
+	  position: absolute;
+      left: 865px;
+      bottom: 14px;
+	}
+	#mail{
+	position: absolute;
+	  left: 930px;
+	  bottom: 14px;
+	}
+}
+
+@media only screen and (max-width: 1010px){
+	
+	#fb{
+	  position: absolute;
+      left: 600px;
+      bottom: 14px;
+	}
+	#ig{
+	  position: absolute;
+      left: 665px;
+      bottom: 14px;
+	}
+	#mail{
+	position: absolute;
+	  left: 730px;
+	  bottom: 14px;
+	}
+}
+
+@media only screen and (max-width: 810px){
+	
+	#fb{
+	  position: absolute;
+      left: 500px;
+      bottom: 14px;
+	}
+	#ig{
+	  position: absolute;
+      left: 565px;
+      bottom: 14px;
+	}
+	#mail{
+	position: absolute;
+	  left: 630px;
+	  bottom: 14px;
+	}
+}
 
 
 @media only screen and (max-width: 768px){
