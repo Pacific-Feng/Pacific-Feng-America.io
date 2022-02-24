@@ -84,6 +84,10 @@ header ul.navbar-nav ul{
 	display: none;
 }
 
+header div ul.navbar-nav.me-2.ml-10.mb-lg-0 {
+	justify-content: center;
+}
+
 .offcanvas-end { /*小螢幕的選取工作列的寬度*/
 	width: 300px;
 }
